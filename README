@@ -1,0 +1,10 @@
+This is a split video tools,that i use to split videos and upload to Youtube
+
+Example:
+  $./VideoSplit.py video-1.mpg video-2.mpg video-??.mpg .....etc
+
+Output:
+  Input_FileName_0[id].mpg
+
+Note:
+    Youtube's default video length is 15min, so i set the length 14 min 
