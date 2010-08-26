@@ -19,10 +19,10 @@ yvl = 14
 COMMAND = 'mencoder \
 -ss %s:00 \
 -endpos 00:%02d:00 \
--oac lavc -ovc lavc \
--of avi \
+-oac copy -ovc copy \
+-of mpeg \
 -forceidx %s \
--o %s_%02d.avi'
+-o %s_%02d.mpg'
 
 input_filename = sys.argv[1:]
 def getVideoLength(fileName):
